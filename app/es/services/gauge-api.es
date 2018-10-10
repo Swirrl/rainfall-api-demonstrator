@@ -6,7 +6,7 @@ import Station from '../models/station.es';
 import { Reading } from '../models/reading.es';
 
 /** The root of the API URLs */
-const API_ROOT = '//defra-floods-prod.publishmydata.com';
+const API_ROOT = '//environment.data.gov.uk';
 
 /** API endpoint for retrieving stations */
 const STATIONS_ENDPOINT = '/flood-monitoring/id/stations';
